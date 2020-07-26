@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Choose a Theme!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/theme.css" />
+</head>
+<body id = "mybody">
+  <header>
+      <h1>Bullet Journal</h1>
+    </header>
+  
+<div class="container">
+  <h2><center>Choose an August Theme</center></h2>
+  <br>
+  <br>
+<!--   <p>The .thumbnail class can be used to display an image gallery.</p>
+  <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
+  <p>Click on the images to enlarge them.</p> -->
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="https://cdn.glitch.com/a53855c9-c46b-47ee-97d5-95e8a5490ccb%2Faugust_dogs.jpg?v=1595728627714" alt="Lights" style="width:100%" onclick = "myFunction()">
+          <div class="caption">
+            <p><center>Dogs</center></p>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="https://cdn.glitch.com/a53855c9-c46b-47ee-97d5-95e8a5490ccb%2Faugust_water.JPG?v=1595728845598" alt="Nature" style="width:100%" onclick = "myFunction2()">
+          <div class="caption">
+            <p><center>Water</center></p>
+          </div>
+      
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        
+          <img src="https://cdn.glitch.com/a53855c9-c46b-47ee-97d5-95e8a5490ccb%2Faugust_flower.jpg?v=1595728633007" alt="Fjords" style="width:100%" onclick = "myFunction3()">
+          <div class="caption">
+            <p><center>Flowers</center></p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+     
+  <div class="navbar">
+      <a href="theme.html"><img src="https://cdn.glitch.com/a53855c9-c46b-47ee-97d5-95e8a5490ccb%2FhomeIcon.png?v=1595725295714" id = "home" class="navbutton"/></a>
+      <a href="home.html"><img src="https://cdn.glitch.com/a53855c9-c46b-47ee-97d5-95e8a5490ccb%2Fcalendar.png?v=1595733249194" id = "habits" class="navbutton"/></a>
+      <a href="habit.html"><img src="https://cdn.glitch.com/a53855c9-c46b-47ee-97d5-95e8a5490ccb%2Ftracker.png?v=1595733268851" id = "cal" class="navbutton"/></a>
+    </div>
+
+  
+  
+  
+<script>
+function myFunction() {
+  document.getElementById("mybody").style.backgroundImage = "url('https://cdn.glitch.com/a53855c9-c46b-47ee-97d5-95e8a5490ccb%2Faugust_dog_bkg.jpg?v=1595771257821')";
+}
+  
+function myFunction2() {
+  document.getElementById("mybody").style.backgroundImage = "url('https://cdn.glitch.com/a53855c9-c46b-47ee-97d5-95e8a5490ccb%2Faugust_water_bkg.jpg?v=1595771266948')";
+}
+  
+function myFunction3() {
+  document.getElementById("mybody").style.backgroundImage = "url('https://cdn.glitch.com/a53855c9-c46b-47ee-97d5-95e8a5490ccb%2Faugust_flowers_bkg.jpg?v=1595771261473')";
+}
+</script>
+  
+  
+</body>
+</html>
+
+
