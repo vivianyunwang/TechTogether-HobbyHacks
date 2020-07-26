@@ -1,0 +1,157 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+}
+
+header {
+  background-color: #dcd6f7;
+  text-align: center;
+  padding: 20px;
+}
+
+/* calendar */
+#calendar {
+  width: 75%;
+}
+caption {
+  background-color: #a6b1e1;
+  padding: 1%;
+}
+
+td.day {
+  border: 1px solid grey;
+  padding: 40px 50px;
+  width: 100%;
+}
+
+
+table#calendar {
+  table-layout: fixed;
+  width: 65%; 
+/*    display: inline-block; vertical-align: top; border: 1px solid; */
+}
+
+/*  Important Tasks */
+
+table#tasks, th, td {
+  table-layout: fixed; 
+  border : 1px solid grey;
+  margin-left: 10;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 30%;
+} 
+
+
+
+/* Navigation Bar */
+
+.navbar {
+  width: 100%; /* Full Width */
+  padding: 0px 0px 5px 0px;
+  background-color: #f4eeff; /* Pastel Pink background */
+  overflow: auto; /* Overflow to allow to float  */
+}
+
+.navbar a {
+  float: left;
+  transition: all 0.4 ease;
+  color: white;
+  width: 30%;
+}
+
+.navbar a:hover {
+  background-color: #FFFFD8; /* Add a hover color */
+}
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
+
+#cal {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#habits {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#home{
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h4 {
+  font-family: 'Dosis', sans-serif;
+  padding: 5px 10px 0px 0px;
+  display: block;
+
+}
+
+h5 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+div.Inspiration{
+  width : 30%;
+  margin-top: 10%;
+  background-color: #dcd6f7;
+}
+
+
+#hobby1
+{
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#hobby2
+{
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 10px 10px 0px;
+}
+
+
+#hobby3
+{
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#hobby4
+{
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
