@@ -1,0 +1,71 @@
+body {
+  color: #a6b1e1;
+  font-family: helvetica;
+}
+
+header {
+  background-color: #f4eeff;
+  text-align: center;
+  margin-top: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  table-layout: fixed;
+}
+
+td {
+  text-align: center;
+}
+
+
+/* .cell {
+  background-color: #a6b1e1;
+} */
+
+/* Navigation Bar */
+
+.navbar {
+  width: 100%; /* Full Width */
+  padding: 0px 0px 5px 0px;
+  background-color: #f4eeff; /* Pastel Pink background */
+  overflow: auto; /* Overflow to allow to float  */
+}
+
+.navbar a {
+  float: left;
+  transition: all 0.4 ease;
+  color: white;
+  width: 30%;
+}
+
+.navbar a:hover {
+  background-color: #FFFFD8; /* Add a hover color */
+}
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
+
+#cal {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#habits {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#home{
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
