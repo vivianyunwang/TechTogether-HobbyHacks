@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Varta&display=swap" rel="stylesheet">
+
+
+    <title>Bullet Journal</title>
+
+  
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8" />
+        <title>JavaScript current day and time</title>
+      </head>
+      <body></body>
+    </html>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Schedule</h1>
+    </header>
+    
+    <h4>Today is: <span id="datetime"></span></h4>
+    <script>
+      var dt = new Date();
+      document.getElementById("datetime").innerHTML = dt.toLocaleString();
+    </script>
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <div>
+      <!-- calendar -->
+      <table id="calendar" style = "float : left">
+        <caption>
+          August 2020
+        </caption>
+        <tr id="weekdays">
+          <th>Sunday</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+
+        <tr class="days">
+          <td class="day">
+            <div class="date">
+              26
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              27
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              28
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              29
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              30
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              31
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              1
+            </div>
+          </td>
+        </tr>
+        <tr class="days">
+          <td class="day">
+            <div class="date">
+              2
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              3
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              4
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              5
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              6
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              7
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              8
+            </div>
+          </td>
+        </tr>
+        <tr class="days">
+          <td class="day">
+            <div class="date">
+              9
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              10
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              11
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              12
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              13
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              14
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              15
+            </div>
+          </td>
+        </tr>
+        <tr class="days">
+          <td class="day">
+            <div class="date">
+              16
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              17
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              18
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              19
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              20
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              21
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              22
+            </div>
+          </td>
+        </tr>
+        <tr class="days">
+          <td class="day">
+            <div class="date">
+              23
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              24
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              25
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              26
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              27
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              28
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              29
+            </div>
+          </td>
+        </tr>
+        <tr class="days">
+          <td class="day">
+            <div class="date">
+              30
+            </div>
+          </td>
+          <td class="day">
+            <div class="date">
+              31
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    
+  <div>
+    <table id = "tasks" style = "float : right">
+      <caption>TO-DO</caption>
+      <tr>
+        <th>Tasks</th>
+      </tr>
+      <tr>
+        <td><input type="radio">Go on a Walk</td>
+      </tr>
+       <tr>
+        <td><input type="radio">Math Homework!</td>
+      </tr>
+       <tr>
+        <td><input type="radio">Meal Prep</td>
+      </tr>
+       <tr>
+        <td><input type="radio">Call Sandy!!!! IMPORTANT</td>
+      </tr>
+       <tr>
+        <td><input type="radio">Order contacts</td>
+      </tr>
+    </table>
+    <button style = "float: right" onclick = "newCell()"> New Task </button>
+  </div>
+     
+    
+  &nbsp  
+    
+    
+    
+  <div class = "Inspiration" style = " float : right">
+    <h5><center>
+      Hobbies To Try Out</center>
+    </h5>
+  <form action="/action_page.php" method="get">
+    <input type="checkbox" id ="hobby1" value="Canoeing">
+    <label for="hobby">Canoeing</label><br>
+    <input type="checkbox" id ="hobby2" value="Calligraphy">
+    <label for="hobby">Calligraphy</label><br>
+    <input type="checkbox" id ="hobby3" value="ORIGAMI" checked>
+    <label for="hobby">ORIGAMI</label><br><br>
+    <input type="checkbox" id ="hobby4" value="ARCHERY" checked>
+    <label for="hobby">ARCHERY</label><br><br>
+    <input type="submit" value="Submit">
+</form>  
+  </div>
+    
+    
+    
+    
+    <div class="navbar">
+      <a href="theme.html"><img src="https://cdn.glitch.com/a53855c9-c46b-47ee-97d5-95e8a5490ccb%2FhomeIcon.png?v=1595725295714" id = "home" class="navbutton"/></a>
+      <a href="home.html"><img src="https://cdn.glitch.com/a53855c9-c46b-47ee-97d5-95e8a5490ccb%2Fcalendar.png?v=1595733249194" id = "habits" class="navbutton"/></a>
+      <a href="habit.html"><img src="https://cdn.glitch.com/a53855c9-c46b-47ee-97d5-95e8a5490ccb%2Ftracker.png?v=1595733268851" id = "cal" class="navbutton"/></a>
+    </div>
+    
+  
+    
+    <script>
+    function newCell(){
+      var rowCount = CountRows();
+      var table = document.getElementById("tasks");
+      var row = table.insertRow(rowCount + 1);
+      var cell1 = row.insertCell(0);
+      console.log(rowCount);
+      cell1.innerHTML = "<input type='radio'><input type='text' id = 'myInput' placeholder='...'>"
+    }
+    
+    
+    
+    function CountRows() {
+        var totalRowCount = 0;
+        var rowCount = 0;
+        var table = document.getElementById("tasks");
+        var rows = table.getElementsByTagName("tr")
+        for (var i = 0; i < rows.length; i++) {
+            totalRowCount++;
+            if (rows[i].getElementsByTagName("td").length > 0) {
+                rowCount++;
+            }
+        }
+        var message = "Total Row Count: " + totalRowCount;
+        message += "\nRow Count: " + rowCount;
+        return rowCount;
+    }
+  </script> 
+    
+    
+    
+  </body>
+</html>
