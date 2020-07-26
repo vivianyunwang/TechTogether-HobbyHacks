@@ -1,0 +1,68 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+}
+
+header {
+  background-color: #dcd6f7;
+  text-align: center;
+  padding: 20px;
+}
+
+h2{
+  font-family: helvetica;
+  background-color : #fffdeb;
+  color: #787873;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+  width: 100%; /* Full Width */
+  padding: 0px 0px 5px 0px;
+  background-color: #f4eeff; /* Pastel Pink background */
+  overflow: auto; /* Overflow to allow to float  */
+}
+
+.navbar a {
+  float: left;
+  transition: all 0.4 ease;
+  color: white;
+  width: 30%;
+}
+
+.navbar a:hover {
+  background-color: #FFFFD8; /* Add a hover color */
+}
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
+
+#cal {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#habits {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#home{
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
